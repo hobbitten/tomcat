@@ -1,8 +1,8 @@
-bmcgeheedd/tomcat-war-docker:
+hobbitten/tomcat-war-docker:
 
   Env:
     # Set the below enviornment variables for your environment
-    - CATALINA_HOME: "/usr/local/tomcat"
+    - CATALINA_HOME: "C:\Program Files\Apache Software Foundation\Tomcat 7.0"
     # The port number below is only for reference. Set it to the port number of your tomcat server.
     - PORT: "8080"
 
